@@ -25,6 +25,237 @@
    <li><a href="https://github.com/Ebagcoder/ebagcoder.github.io">Main Github</a></li>
    <li><a href="https://github.com/Ebagcoder/ebagcoder.github.io">Pokemon Github</a></li>
 </ul>
+        <style>
+            html {
+                color: #404040;
+                font-family: "Lato", "Ubuntu", "Trebuchet MS", "Helvetica", "Arial", "FreeSans", sans-serif;
+                font-size: 15px;
+                line-height: 1.5;
+            }
+
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+                margin: 0 auto 15px;
+                padding: 0;
+            }
+
+            .type-table th {
+                border: 1px solid #ECECEC;
+                font-weight: normal;
+                padding: 0;
+            }
+
+            .type-table td {
+                border: 1px solid #ECECEC;
+                padding: 0;
+            }
+
+            .cell-nano {
+                font-size: 9px;
+            }
+
+            a {
+                text-decoration: none;
+                -webkit-transition: color 0.2s, background-color 0.2s;
+                transition: color 0.2s, background-color 0.2s;
+            }
+
+            .type-abbr {
+                background: #CCCCCC;
+                background-image: -webkit-linear-gradient(#DDDDDD, #BBBBBB);
+                background-image: linear-gradient(#DDDDDD, #BBBBBB);
+                border: 1px solid #AAAAAA;
+                border-radius: 2px;
+                color: #FFFFFF;
+                display: inline-block;
+                font-size: 10px;
+                height: 32px;
+                line-height: 32px;
+                text-align: center;
+                text-shadow: 1px 1px 1px #333333;
+                text-transform: uppercase;
+                width: 32px;
+            }
+
+            .type-icon-th {
+                background: #CCCCCC;
+                background-image: -webkit-linear-gradient(#DDDDDD, #BBBBBB);
+                background-image: linear-gradient(#DDDDDD, #BBBBBB);
+                border: 1px solid #AAAAAA;
+                border-radius: 2px;
+                color: #FFFFFF;
+                float: left;
+                font-size: 10px;
+                height: 32px;
+                line-height: 32px;
+                text-align: center;
+                text-shadow: 1px 1px 1px #333333;
+                text-transform: uppercase;
+                width: 54px;
+            }
+
+            .type-icon-th:first-child {
+                margin-left: 0;
+            }
+
+            .type-fx-cell {
+                color: #DDDD66;
+                font-size: 11px;
+                height: 32px;
+                line-height: 32px;
+                text-align: center;
+                width: 32px;
+            }
+
+            .type-fx-0 {
+                background-color: #2E3436;
+            }
+
+            .type-fx-50 {
+                background-color: #A40000;
+                font-size: 14px;
+            }
+
+            .type-fx-100 {
+                background-color: #FFFFFF;
+            }
+
+            .type-fx-150 {
+                background-color: #4E9A06;
+                font-size: 14px;
+            }
+
+            .type-fx-200 {
+                background-color: #4E9A06;
+            }
+
+            .type-normal {
+                background: #8A8A59;
+                background-image: -webkit-linear-gradient(#A8A878, #8A8A59);
+                background-image: linear-gradient(#A8A878, #8A8A59);
+                border-color: #79794E;
+            }
+
+            .type-fire {
+                background: #F08030;
+                background-image: -webkit-linear-gradient(#F08030, #DD6610);
+                background-image: linear-gradient(#F08030, #DD6610);
+                border-color: #B4530D;
+            }
+
+            .type-water {
+                background: #6890F0;
+                background-image: -webkit-linear-gradient(#6890F0, #386CEB);
+                background-image: linear-gradient(#6890F0, #386CEB);
+                border-color: #1753E3;
+            }
+
+            .type-electric {
+                background: #F8D030;
+                background-image: -webkit-linear-gradient(#F8D030, #F0C108);
+                background-image: linear-gradient(#F8D030, #F0C108);
+                border-color: #C19B07;
+            }
+
+            .type-grass {
+                background: #78C850;
+                background-image: -webkit-linear-gradient(#78C750, #5CA935);
+                background-image: linear-gradient(#78C750, #5CA935);
+                border-color: #4A892B;
+            }
+
+            .type-ice {
+                background: #98D8D8;
+                background-image: -webkit-linear-gradient(#98D8D8, #69C6C6);
+                background-image: linear-gradient(#98D8D8, #69C6C6);
+                border-color: #45B6B6;
+            }
+
+            .type-fighting {
+                background: #C03028;
+                background-image: -webkit-linear-gradient(#C03028, #9D2721);
+                background-image: linear-gradient(#C03028, #9D2721);
+                border-color: #82211B;
+            }
+
+            .type-poison {
+                background: #A040A0;
+                background-image: -webkit-linear-gradient(#A040A0, #803380);
+                background-image: linear-gradient(#A040A0, #803380);
+                border-color: #662966;
+            }
+
+            .type-ground {
+                background: #E0C068;
+                background-image: -webkit-linear-gradient(#E0C068, #D4A82F);
+                background-image: linear-gradient(#E0C068, #D4A82F);
+                border-color: #AA8623;
+            }
+
+            .type-flying {
+                background: #A890F0;
+                background-image: -webkit-linear-gradient(#A890F0, #9180C4);
+                background-image: linear-gradient(#A890F0, #9180C4);
+                border-color: #7762B6;
+            }
+
+            .type-psychic {
+                background: #F85888;
+                background-image: -webkit-linear-gradient(#F85888, #F61C5D);
+                background-image: linear-gradient(#F85888, #F61C5D);
+                border-color: #D60945;
+            }
+
+            .type-bug {
+                background: #A8B820;
+                background-image: -webkit-linear-gradient(#A8B820, #8D9A1B);
+                background-image: linear-gradient(#A8B820, #8D9A1B);
+                border-color: #616B13;
+            }
+
+            .type-rock {
+                background: #B8A038;
+                background-image: -webkit-linear-gradient(#B8A038, #93802D);
+                background-image: linear-gradient(#B8A038, #93802D);
+                border-color: #746523;
+            }
+
+            .type-ghost {
+                background: #705898;
+                background-image: -webkit-linear-gradient(#705898, #554374);
+                background-image: linear-gradient(#705898, #554374);
+                border-color: #413359;
+            }
+
+            .type-dragon {
+                background: #7038F8;
+                background-image: -webkit-linear-gradient(#7038F8, #4C08EF);
+                background-image: linear-gradient(#7038F8, #4C08EF);
+                border-color: #3D07C0;
+            }
+
+            .type-dark {
+                background: #705848;
+                background-image: -webkit-linear-gradient(#705848, #513F34);
+                background-image: linear-gradient(#705848, #513F34);
+                border-color: #362A23;
+            }
+
+            .type-steel {
+                background: #B8B8D0;
+                background-image: -webkit-linear-gradient(#B8B8D0, #9797BA);
+                background-image: linear-gradient(#B8B8D0, #9797BA);
+                border-color: #7A7AA7;
+            }
+
+            .type-fairy {
+                background: #E898E8;
+                background-image: -webkit-linear-gradient(#E898E8, #DE6EDE);
+                background-image: linear-gradient(#E898E8, #DE6EDE);
+                border-color: #D547D5;
+            }
+        </style>
 <body style="background-color:white;>
 <div id="spacer2"></div>
 <div id="head1">Pokémon Type Chart</div>
