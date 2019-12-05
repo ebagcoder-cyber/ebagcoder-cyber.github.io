@@ -1,0 +1,178 @@
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "assets/css/style.scss" />
+   <link rel ="stylesheet"
+   type = "text/css"
+   href = "assets/css/navbar.css" />
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "assets/css/footer.css" />
+<link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
+<title>Html & Css | Ebagcoder</title>
+<html>
+ <body>
+<center>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="navbar.html">Navbar</a></li>
+  <li><a href="footer.html">Footer</a></li>
+   <li><a href="https://github.com/ebagcoder-cyber/Html-and-Css-Code">Html & Css</a></li>
+   <li><a href="https://forms.gle/8pR4RDTqoiCHrF2H9">Suggestions or Help Google Form</a></li>
+</ul>
+<body style="background-color:white;>
+ <div id="spacer2"></div>            
+<div id="head1">Footer Tutotial</div>
+<div id="spacer1"></div>
+<div id="body">Here you can find a tutorial for a footer with images and links!</div>
+<div id="spacer2"></div>
+<h4>Step 1. Create a new file called footer.css. This will help keep your website's code organized</h4>
+<pre>
+  <code>
+ footer.css
+  </code>
+</pre>
+<h4>Step 2. Create the div classes</h4>
+<pre>
+  <code>
+ .icons {
+ 
+  }  
+.icons li {
+  
+  }
+.icons li a {
+  
+  }
+.icons li img {
+  
+}
+
+.footer {
+   
+}
+  </code>
+</pre>
+<h4>Step 3. Add Style code to the Div classes</h4>
+<pre>
+  <code>
+ .icons {
+  text-align: center;
+  }  
+.icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.icons li a {
+  border-bottom: none;
+  }
+.icons li img {
+  width:30px;
+  height:30px;
+  margin-right: 20px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gray;
+   color: #ffffff;
+   text-align: center;
+}
+  </code>
+</pre>
+<h4>Step 4. Open the html file you want to add the footer to</h4>
+<pre>
+  <code>
+ filename.html
+  </code>
+</pre>
+<h4>Step 5. Call the Div classes</h4>
+<pre>
+  <code>
+ &lt;footer class="footer"&gt;
+&lt;ul class="icons"&gt;
+    &lt;li>&lt;a href=""&gt;&lt;img src='' /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/footer&gt;
+  </code>
+</pre>
+<h4>Step 6. Add the path to the photos you want to use</h4>
+<pre>
+  <code>
+ &lt;footer class="footer"&gt;
+&lt;ul class="icons">
+    &lt;li&gt;&lt;a href=""&gt;&lt;img src='image.png' /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/footer&gt;
+  </code>
+</pre>
+<h4>Step 7. Add the links to where you want the photos to take you</h4>
+<pre>
+  <code>
+   &lt;footer class="footer"&gt;
+&lt;ul class="icons">
+    &lt;li&gt;&lt;a href="https://ebagcoder-cyber.github.io/"&gt;&lt;img src='image.png' /&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/footer&gt;
+  </code>
+</pre>
+<h4>You are done! Yay you now have a working footer with images!</h4>
+ <code>
+<pre>
+Yay, You Did It
+ </code>
+</pre>
+<h4>Here is the full html code</h4>
+ <code>
+<pre>
+<footer class="footer">
+<ul class="icons">
+    <li><a href="https://ebagcoder-cyber.github.io/"><img src='images.png' /></a></li>
+</ul>
+</footer>
+ </code>
+</pre>
+
+<h4>Here is the full css code</h4>
+ <code>
+<pre>
+.icons {
+  text-align: center;
+  }  
+.icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.icons li a {
+  border-bottom: none;
+  }
+.icons li img {
+  width:30px;
+  height:30px;
+  margin-right: 20px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gray;
+   color: #ffffff;
+   text-align: center;
+}
+ </code>
+</pre>
+
+
+
+
+<footer class="footer">
+<ul class="icons">
+    <li><a href="https://www.youtube.com/channel/UCvR8Sc7wsiXeV-wCQoc6KKg?sub_confirmation=1"><img src='images/YouTube.png' /></a></li>
+    <li><a href="https://twitter.com/ebagcoder"><img src='images/Twitter.png' /></a></li>
+    <li><a href="https://github.com/Ebagcoder/ebagcoder.github.io"><img src='images/Github.png' /></a></li>
+</ul>
+</footer>
