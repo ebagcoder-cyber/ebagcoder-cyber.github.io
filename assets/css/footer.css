@@ -1,14 +1,14 @@
-.footer-icons {
+.icons {
   text-align: center;
   }  
-.footer-icons li {
+.icons li {
   display:inline-block;
   list-style-type:none;
   }
-.footer-icons li a {
+.icons li a {
   border-bottom: none;
   }
-.footer-icons li img {
+.icons li img {
   width:30px;
   height:30px;
   margin-right: 20px;
