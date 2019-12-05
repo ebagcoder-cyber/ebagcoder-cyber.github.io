@@ -1,0 +1,211 @@
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "assets/css/style.scss" />
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "assets/css/navbar.css" />
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "assets/css/footer.css" />
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "assets/css/cyber.css" />
+<link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
+<title>Html & Css | Ebagcoder</title>
+<html>
+ <body>
+<center>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="navbar.html">Navbar</a></li>
+  <li><a href="footer.html">Footer</a></li>
+   <li><a href="https://github.com/ebagcoder-cyber/Html-and-Css-Code">Html & Css</a></li>
+   <li><a href="https://forms.gle/8pR4RDTqoiCHrF2H9">Suggestions or Help Google Form</a></li>
+</ul>
+<body style="background-color:white;>
+<div id="head1">Navbar Tutorial</div>
+<div id="spacer1"></div>
+<div id="body">Here you can find a tutorial for a top navbar!</div>
+<div id="spacer2"></div>
+<h4>Step 1. Create a new Css file called something like navbar.css or Put the css code in your style sheet. Creating a new Css file called navbar.css would help keep your code organized</h4>
+</div>
+<pre>
+  <code>
+  Name the file navbar.css or add the style code to style.css
+  </code>
+</pre>
+</div>
+ <h4>Step 2. Start by creating a div class called ul</h4>
+ </div>
+ <pre>
+  <code>
+  ul { }
+  </code>
+</pre>
+</div>
+ <h4>Step 3. Create a div class called li</h4>
+ </div>
+ <pre>
+  <code>
+  li { }
+  </code>
+</pre>
+</div>
+ <h4>Step 4. Create a div class called li a</h4>
+ </div>
+ <pre>
+  <code>
+  li a { }
+  </code>
+</pre>
+</div>
+ <h4>Step 5. Create a div class called li a:hover</h4>
+ </div>
+ <pre>
+  <code>
+  li a:hover { }
+  </code>
+</pre>
+</div>
+ <h4>Step 6. Add style code to the div class ul</h4>
+ </div>
+ <pre>
+  <code>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+  </code>
+</pre>
+</div>
+ <h4>Step 7. Add style code to the div class li</h4>
+ </div>
+ <pre>
+  <code>
+  li {
+  float: left;
+}
+  </code>
+</pre>
+</div>
+ <h4>Step 8. Add style code to the div class li a</h4>
+ </div>
+ <pre>
+  <code>
+  li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  </code>
+</pre>
+</div>
+ <h4>Step 9. Add style code to the div class li a:hover</h4>
+ </div>
+ <pre>
+  <code>
+  li a:hover {
+background-color: #C9C9C9;
+}
+  </code>
+</pre>
+</div>
+ <h3>End of Css code</h3>
+ <h4>Step 10. Go to your html file that you want to add the navbar to. If you have not linked the css file you are using for the navbar do it now. Change the text in the href to the path to your style sheet</h4>
+</div>
+<pre>
+  <code>
+  &lt;link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" /&gt;
+  </code>
+</pre>
+</div>
+ <h4>Step 11. Start by calling the div class ul</h4>
+ </div>
+ <pre>
+  <code>
+  &lt;ul&gt;
+  
+  &lt;ul&gt;
+  </code>
+</pre>
+</div>
+ <h4>Step 12. Next call the div class li</h4>
+ </div>
+ <pre>
+  <code>
+  &lt;ul&gt;
+  &lt;li&gt; &lt;/li&gt;
+  &lt;/ul&gt;
+  </code>
+</pre>
+</div>
+ <h4>Step 13. Next call the div class li a</h4>
+ </div>
+ <pre>
+  <code>
+  &lt;ul&gt;
+  &lt;li&gt;&lt;a &gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  </code>
+</pre>
+</div>
+ <h4>Step 14. Add the class and set it to active. The only one that needs the class=active is the first one</h4>
+ </div>
+ <pre>
+  <code>
+  &lt;ul&gt;
+  &lt;li&gt;&lt;a class="active"&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  </code>
+</pre>
+</div>
+ <h4>Step 15. Add the href and set it to the path to your file. You can also set the href to a link. Change the filname.html for a link or the path to your html file</h4>
+ </div>
+ <pre>
+  <code>
+  &lt;ul&gt;
+  &lt;li&gt;&lt;a class="active" href="filename.html"&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  </code>
+</pre>
+</pre>
+</div>
+ <h4>Step 16. Between the &gt; at the end of the href and the &lt; at the start of the &lt;/a&gt; type the text you want to be displayed. I would recommend setting this one to index.html</h4>
+ </div>
+ <pre>
+  <code>
+  &lt;ul&gt;
+  &lt;li&gt;&lt;a class="active" href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  </code>
+</pre>
+</div>
+ <h4>Step 17. You can add as many of these as there is space. Do not use the code from the first item of the navbar. Use the second item's code for the rest of the navbar items</h4>
+ </div>
+ <pre>
+  <code>
+  &lt;ul&gt;
+  &lt;li&gt;&lt;a class="active" href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="test.html"&gt;Test&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  </code>
+</pre>
+</div>
+ <h4>Step 18. You are done! Yay you now have a working top Navbar!</h4>
+
+<footer class="footer">
+<ul class="social-icons">
+    <li><a href="https://www.youtube.com/channel/UCvR8Sc7wsiXeV-wCQoc6KKg?sub_confirmation=1"><img src='images/YouTube.png' /></a></li>
+    <li><a href="https://twitter.com/ebagcoder"><img src='images/Twitter.png' /></a></li>
+    <li><a href="https://github.com/Ebagcoder/ebagcoder.github.io"><img src='images/Github.png' /></a></li>
+</ul>
+</footer>
+</body>                                                               
+</html>
