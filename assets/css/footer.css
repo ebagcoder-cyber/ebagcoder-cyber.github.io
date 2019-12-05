@@ -1,14 +1,14 @@
-.social-icons {
+.footer-icons {
   text-align: center;
   }  
-.social-icons li {
+.footer-icons li {
   display:inline-block;
   list-style-type:none;
   }
-.social-icons li a {
+.footer-icons li a {
   border-bottom: none;
   }
-.social-icons li img {
+.footer-icons li img {
   width:30px;
   height:30px;
   margin-right: 20px;
